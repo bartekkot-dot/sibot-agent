@@ -1,0 +1,38 @@
+{
+  "ucp": {
+    "version": "2026-08-25",
+    "services": {},
+    "capabilities": {
+      "dev.ucp.shopping.catalog.search": [
+        {
+          "version": "2026-08-25",
+          "spec": "https://ucp.dev/2026-08-25/specification/shopping/catalog/",
+          "schema": "https://ucp.dev/2026-08-25/schemas/shopping/catalog_search.json"
+        }
+      ],
+      "dev.ucp.shopping.catalog.lookup": [
+        {
+          "version": "2026-08-25",
+          "spec": "https://ucp.dev/2026-08-25/specification/shopping/catalog/",
+          "schema": "https://ucp.dev/2026-08-25/schemas/shopping/catalog_lookup.json"
+        }
+      ]
+    },
+    "payment_handlers": {}
+  },
+  "keys": [
+    {
+      "kid": "2xQxiuDnyTXyDv_WiGGeh7xBa46cm1yPKzDihJJ44Fs",
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "x": "lXChwYgCUYfygA4TFr7AK6WXJ-hhR-3P_jNNbptFILM",
+      "use": "sig",
+      "alg": "EdDSA"
+    }
+  ],
+  "about": {
+    "name": "sibot",
+    "operator_contact": "bartek678f@gmail.com",
+    "purpose": "Personal price-alert script: reads the public product catalog of one brand a few times per week. Read-only; never uses carts, checkout, accounts or orders."
+  }
+}
