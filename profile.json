@@ -30,6 +30,16 @@
       "alg": "EdDSA"
     }
   ],
+  "signing_keys": [
+    {
+      "kid": "2xQxiuDnyTXyDv_WiGGeh7xBa46cm1yPKzDihJJ44Fs",
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "x": "lXChwYgCUYfygA4TFr7AK6WXJ-hhR-3P_jNNbptFILM",
+      "use": "sig",
+      "alg": "EdDSA"
+    }
+  ],
   "about": {
     "name": "sibot",
     "operator_contact": "bartek678f@gmail.com",
